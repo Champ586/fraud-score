@@ -6,3 +6,8 @@ To build and run application you need:
 5. docker run -p 8080:8080 champ/fraud
 
 Swagger UI will be available at: http://localhost:8080/swagger-ui.html
+
+The application is deployed at AWS.
+Swagger UI is available at: http://fraudscore-env.mmub3vmrrd.us-east-2.elasticbeanstalk.com/swagger-ui.html
+
+"Try it out" section in fraud-controller is working
