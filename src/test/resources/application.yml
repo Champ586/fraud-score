@@ -1,0 +1,11 @@
+fraud-detection-policy:
+  maxMessageCount: 5
+  numOfMinutes: 120
+  pointsForRepeat: 100
+  patterns:
+    -
+      pattern: "<a>"
+      points: 1
+    -
+      pattern: "money|transfer|paypal"
+      points: 10
